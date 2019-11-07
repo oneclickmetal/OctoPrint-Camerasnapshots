@@ -1,0 +1,20 @@
+<form class="form-horizontal">
+    <h4>Camerasnapshot Settings</h4>
+    <div class="row-fluid" style="margin-bottom: 5px">
+        <div class="span3">
+            <label for="snapshot_url" class="span12">Snapshot URL: {{ plugin_camerasnapshots_snapshot_url }}</label>
+        </div>
+        <div class="span7">
+            <input id="snapshot_url" type="text" class="span12" data-bind="value: settings.plugins.camerasnapshots.snapshot_url">
+        </div>
+    </div>
+
+    <div class="row-fluid" style="margin-bottom: 5px">
+        <div class="span3">
+            <label for="snapshot_folder" class="span12">Snapshot folder:</label>
+        </div>
+        <div class="span7">
+            <input id="snapshot_folder" type="text" class="span12" data-bind="value: settings.plugins.camerasnapshots.snapshot_folder">
+        </div>
+    </div>
+</form>
